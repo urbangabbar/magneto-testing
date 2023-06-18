@@ -9,4 +9,7 @@ export class BasePage {
     selectCreateAccount() {
         this.createAccount().click({force: true})
     }
+    selectLoginAccount() {
+        this.sigInButton().click({force: true})
+    }
 }
