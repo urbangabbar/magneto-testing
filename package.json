@@ -1,0 +1,15 @@
+{
+  "name": "magneto-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mpx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.14.0"
+  }
+}
