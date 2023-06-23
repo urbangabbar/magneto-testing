@@ -7,4 +7,7 @@ export class HomePage extends BasePage {
         cy.visit(this.url)
         cy.url().should("eql", this.url)
     }
+    selectaProduct(name){
+        cy.contains(name).click()
+    }
 }
